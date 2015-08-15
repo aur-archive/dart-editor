@@ -1,0 +1,51 @@
+2013-05-11 T. Jameson Little <t.jameson.little@gmail.com>
+
+	* 0.5.5.0_r22416-2
+	Added libudev.so.0 dependency.
+
+2013-02-27 T. Jameson Little <t.jameson.little@gmail.com>
+
+	* 0.4.0.0_r18915-2 :
+	Added gconf dependency. Hopefully will be removed in the near future.
+
+2013-02-27 T. Jameson Little <t.jameson.little@gmail.com>
+
+	* 0.4.0.0_r18915-1 :
+	Adopted package.
+	New upstream release (M3).
+	Added unzip to makedepends.
+	Changed upstream URL.
+	Fix permissions problem on startup.
+	Added DartEditor symlink (in addition to dart-editor) to /usr/bin.
+
+2012-02-18 Julien Nicoulaud <julien.nicoulaud@gmail.com>
+
+	* 0.1.0.3934-3 :
+	Add missing dependency on gtk2.
+
+2012-02-12 Julien Nicoulaud <julien.nicoulaud@gmail.com>
+
+	* 0.1.0.3934-2 :
+	Fix wrong arch (x86 => i686).
+
+2012-01-15 Julien Nicoulaud <julien.nicoulaud@gmail.com>
+
+	* 0.1.0.3101-1 :
+	New upstream release.
+	Add dependency on desktop-file-utils.
+	Mark dependency on java-runtime >= 6.
+	Fix broken symlinks.
+	Add links to doc at /usr/share/doc/dart-editor.
+	Add backup for /opt/${pkgname}/${_pkgname}.ini.
+
+2011-11-18 Julien Nicoulaud <julien.nicoulaud@gmail.com>
+
+	* 0.1.0.1584-1 :
+	Add changelog.
+
+2011-11-07 Julien Nicoulaud <julien.nicoulaud@gmail.com>
+
+	* 0.1.0.1141-1 :
+	Initial release of the package.
+
+
